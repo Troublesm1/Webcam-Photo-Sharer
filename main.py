@@ -10,5 +10,8 @@ class RootWidget(ScreenManager):
     pass
 
 class MainApp(App):
+
     def build(self):
         return RootWidget()
+
+MainApp().run()

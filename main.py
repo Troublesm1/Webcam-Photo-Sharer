@@ -6,7 +6,7 @@ Builder.load_file('frontend.kv')
 
 class FirstScreen(Screen):
     def search_image(self):
-        pass
+        print("Working....")
 
 
 class RootWidget(ScreenManager):

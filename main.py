@@ -6,8 +6,7 @@ Builder.load_file('frontend.kv')
 
 class FirstScreen(Screen):
     def search_image(self):
-        print("Working....")
-
+        self.manager.current_screen.ids.img.source = 'files/sunny.jpg'
 
 class RootWidget(ScreenManager):
     pass
